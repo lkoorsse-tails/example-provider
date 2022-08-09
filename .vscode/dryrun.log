@@ -1,0 +1,5 @@
+make.exe: Entering directory `c:/Users/lkoor/Documents/example_provider/example-provider'
+touch .env
+npm run test
+make.exe: Leaving directory `c:/Users/lkoor/Documents/example_provider/example-provider'
+ 

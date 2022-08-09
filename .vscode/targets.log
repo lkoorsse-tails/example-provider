@@ -1,0 +1,466 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Tue Aug 09 13:17:38 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/lkoor/Documents/example_provider/example-provider
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 3)
+PACT_CHANGED_WEBHOOK_UUID := "c76b601e-d66a-4eb1-88a4-6ebc50c0df8b"
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\lkoor\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.RB;.RBW
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\lkoor\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Windows\system32
+# makefile (from `makefile', line 10)
+DEPLOY_TARGET = no_deploy
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Ruby26-x64\bin;C:\Program Files\Java\jdk1.8.0_221;%JAVA_HOME%\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\tm352\platform-tools;C:\tm352\tools\bin;C:\tm352\gradle\bin;C:\tm352\emulator;%APPDATA%\npm;c:\tm352\gradle\bin;C:\Program Files\Git LFS;C:\Program Files\Git\cmd;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\lkoor\AppData\Local\Programs\Python\Launcher\;C:\Users\lkoor\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\lkoor\AppData\Local\Programs\Python\Python37\;C:\Users\lkoor\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\lkoor\AppData\Local\Programs\Python\Python39\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\lkoor\AppData\Local\Microsoft\WindowsApps;C:\Users\lkoor\AppData\Local\Programs\Fiddler;C:\Users\lkoor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lkoor\AppData\Local\GitHubDesktop\bin;C:\chromedriver;C:\geckodriver;C:\Program Files (x86)\GnuWin32\bin;C:\Users\lkoor\AppData\Roaming\npm
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132272096171793524
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\lkoor
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+RUBYOPT = -Eutf-8
+# makefile (from `makefile', line 1)
+PACTICIPANT := "pactflow-example-provider"
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = C:\tm352\tm352cordova
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1660_GTRPURBUMDOVOLLK
+# environment
+COMPUTERNAME = DESKTOP-DG96FJK
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+JAVA = C:\Program Files\Java\jdk-14.0.1\bin
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = lkoor
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\lkoor\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-DG96FJK
+# makefile (from `makefile', line 4)
+PACT_CLI = "docker run --rm -v ${PWD}:${PWD} -e PACT_BROKER_BASE_URL -e PACT_BROKER_TOKEN pactfoundation/pact-cli"
+# environment
+ONEDRIVECONSUMER = C:\Users\lkoor\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-DG96FJK
+# environment
+MAKE = C:\MinGW\bin
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 2)
+GITHUB_REPO := "pactflow/example-provider"
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\lkoor\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f8cc2d3f491a400bb0f77656183d37fd-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\lkoor
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\lkoor\AppData\Roaming
+# environment
+TEMP = C:\Users\lkoor\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.1\x86\lib\
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 9e0d
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 1660
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-DG96FJK
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=10/125=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\chromedriver: could not be stat'd.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1618932786): 12 files, no impossibilities.
+# C:\Users\lkoor\AppData\Local\Programs\Python\Python39\: could not be stat'd.
+# C:\Users\lkoor\AppData\Local\GitHubDesktop\bin (key C:/Users/lkoor/AppData/Local/GitHubDesktop/bin, mtime 1583521814): 4 files, no impossibilities.
+# C:\Users\lkoor\AppData\Local\Microsoft\WindowsApps (key C:/Users/lkoor/AppData/Local/Microsoft/WindowsApps, mtime 1659553747): 32 files, no impossibilities.
+# %JAVA_HOME%\bin: could not be stat'd.
+# C:\Users\lkoor\AppData\Local\Programs\Python\Python39\Scripts\: could not be stat'd.
+# C:\Ruby26-x64\bin: could not be stat'd.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1582820492): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1591832510): 170 files, no impossibilities.
+# . (key c:/Users/lkoor/Documents/example_provider/example-provider, mtime 1660047457): 14 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1659543503): 13 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1582166984): 10 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1582739617): 13 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1653066148): 11 files, no impossibilities.
+# C:\tm352\tools\bin: could not be stat'd.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1651866954): 5 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1658306457): 130 files, no impossibilities.
+# C:\geckodriver: could not be stat'd.
+# C:\tm352\emulator: could not be stat'd.
+# C:\Users\lkoor\AppData\Local\Programs\Python\Python37\ (key C:/Users/lkoor/AppData/Local/Programs/Python/Python37/, mtime 1606076767): 17 files, no impossibilities.
+# C:\Program Files\Java\jdk-14.0.1\bin: could not be stat'd.
+# C:\Users\lkoor\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/lkoor/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1657530989): 44 files, no impossibilities.
+# C:\Program Files\Java\jdk1.8.0_221: could not be stat'd.
+# C:\Users\lkoor\AppData\Local\Programs\Python\Launcher\ (key C:/Users/lkoor/AppData/Local/Programs/Python/Launcher/, mtime 1606077167): 5 files, no impossibilities.
+# C:\Users\lkoor\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/lkoor/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1659361563): 4 files, no impossibilities.
+# C:\ProgramData\DockerDesktop\version-bin (key C:/ProgramData/DockerDesktop/version-bin, mtime 1618932839): 2 files, no impossibilities.
+# C:\Users\lkoor\AppData\Local\Programs\Fiddler (key C:/Users/lkoor/AppData/Local/Programs/Fiddler, mtime 1656677408): 42 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1599676213): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1659820497): 2949 files, no impossibilities.
+# C:\Program Files\Git LFS (key C:/Program Files/Git LFS, mtime 1594398189): 5 files, no impossibilities.
+# C:\Users\lkoor\AppData\Roaming\npm (key C:/Users/lkoor/AppData/Roaming/npm, mtime 1659612691): 24 files, no impossibilities.
+# C:\tm352\gradle\bin: could not be stat'd.
+# %APPDATA%\npm: could not be stat'd.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1659361886): 5 files, no impossibilities.
+# C:\tm352\platform-tools: could not be stat'd.
+
+# 3549 files, no impossibilities in 38 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+record_deployment: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 64):
+	@"${PACT_CLI}" broker record_deployment --pacticipant ${PACTICIPANT} --version ${GIT_COMMIT} --environment production
+	
+
+can_i_deploy: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 58):
+	"${PACT_CLI}" broker can-i-deploy --pacticipant ${PACTICIPANT} --version ${GIT_COMMIT} --to-environment production
+	
+
+ci_webhook: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	npm run test:pact
+	
+
+all: test
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deploy_app:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 61):
+	@echo "Deploying to production"
+	
+
+test: .env
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `makefile', line 46):
+	npm run test
+	
+
+no_deploy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 55):
+	@echo "Not deploying as not on master branch"
+	
+
+create_or_update_pact_changed_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 81):
+	"${PACT_CLI}" \
+	broker create-or-update-webhook \
+	"https://api.github.com/repos/${GITHUB_REPO}/dispatches" \
+	--header 'Content-Type: application/json' 'Accept: application/vnd.github.everest-preview+json' 'Authorization: Bearer $${user.githubToken}' \
+	--request POST \
+	--data '{ "event_type": "pact_changed", "client_payload": { "pact_url": "$${pactbroker.pactUrl}" } }' \
+	--uuid ${PACT_CHANGED_WEBHOOK_UUID} \
+	--consumer ${PACTICIPANT} \
+	--contract-content-changed \
+	--description "Pact content changed for ${PACTICIPANT}"
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 13:15:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fake_ci_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 35):
+	CI=true \
+	GIT_COMMIT=`git rev-parse --short HEAD`+`date +%s` \
+	GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` \
+	PACT_BROKER_PUBLISH_VERIFICATION_RESULTS=true \
+	make ci_webhook
+	
+
+.env:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .env
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `makefile', line 100):
+	touch .env
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ci: test can_i_deploy no_deploy
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+create_github_token_secret:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 72):
+	curl -v -X POST ${PACT_BROKER_BASE_URL}/secrets \
+	-H "Authorization: Bearer ${PACT_BROKER_TOKEN}" \
+	-H "Content-Type: application/json" \
+	-H "Accept: application/hal+json" \
+	-d  "{\"name\":\"githubToken\",\"description\":\"Github token\",\"value\":\"${GITHUB_TOKEN}\"}"
+	
+
+test_pact_changed_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 93):
+	@curl -v -X POST ${PACT_BROKER_BASE_URL}/webhooks/${PACT_CHANGED_WEBHOOK_UUID}/execute -H "Authorization: Bearer ${PACT_BROKER_TOKEN}"
+	
+
+deploy: deploy_app record_deployment
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fake_ci: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 25):
+	CI=true \
+	GIT_COMMIT=`git rev-parse --short HEAD`+`date +%s` \
+	GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` \
+	PACT_BROKER_PUBLISH_VERIFICATION_RESULTS=true \
+	make ci
+	
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/42=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 09 13:17:38 2022
+
+ 
