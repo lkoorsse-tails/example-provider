@@ -1,3 +1,4 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory `c:/Users/lkoor/Documents/example_provider/example-provider'
 touch .env
 npm run test
